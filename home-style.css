@@ -14,7 +14,7 @@
 }
 body{
   font-family: 'Nunito Sans', sans-serif;
-  background-image: url("/assets/images/maincb2.png");
+  background-image: url("maincb2.png");
 
 }
 a{
@@ -152,8 +152,8 @@ img{
 
 /* movie result */
 .result-container{
-    background-image:url("/assets/images/collage1.jpg");
-    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.5)), url("/assets/images/collage1.jpg");
+    background-image:url("collage1.jpg");
+    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.5)), url("collage1.jpg");
     border-radius: 35px;
     padding: 0 3rem;
 }
