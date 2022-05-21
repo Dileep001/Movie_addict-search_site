@@ -6,7 +6,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-image: url("/assets/images/maincb2.png");
+    background-image: url("/images/maincb2.png");
 }
 .wrapper{
     max-width: 1200px;
@@ -24,7 +24,7 @@ body{
     margin: 150px 100px;
     border-radius: 30px;
     perspective: 1000px;
-    background-image: url("/assets/images/maincb.png");
+    background-image: url("/images/maincb.png");
     
 }
 .box {
