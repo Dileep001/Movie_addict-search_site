@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieAddict | Signin/Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="card-box">
+            <div class="box" id="card">
+                <div class="login">
+                    <h2>SIGN IN</h2>
+                    <form name="fo-rm" action="home.html">
+                        <input type="email" class="input-box" placeholder="Enter your email" id="" required />
+                        <input type="password" class="input-box" placeholder="Password" required />
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                    <p>New here? <button class="snup" onclick="openSignUp()">SignUp</button></p>
+                </div>
+                <div class=" signup">
+                    <h2>SIGN UP</h2>
+                    <form name="fo-rm1">
+                        <input type="text" class="input-box" placeholder="Your Name" required />
+                        <input type="email" class="input-box" placeholder="Enter your email" id="" required />
+                        <input type="password" class="input-box" placeholder="Password" required />
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                    <p>I have an account! <button class="snup" onclick="openSignIn()">SignIn</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var card = document.getElementById("card");
+    function openSignUp() {
+        card.style.transform = "rotateY(-180deg)";
+    }
+    function openSignIn() {
+        card.style.transform = "rotateY(0deg)";
+    }
+</script>
+
+</html>
